@@ -1,29 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Embedded PDF</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Menu</title>
   <style>
-    body {
+    body, html {
       margin: 0;
-      font-family: sans-serif;
-      background-color: #f9f9f9;
+      height: 100%;
     }
-    .pdf-container {
+    iframe {
       width: 100%;
-      height: 100vh;
+      height: 100%;
       border: none;
     }
   </style>
 </head>
 <body>
-
-  <iframe 
-    class="pdf-container"
-    src="https://drive.google.com/file/d/1NI9JYOPIG2YPTGJ6sgh-UXrSXbgHR66c/preview"
-    allow="autoplay">
-  </iframe>
-
+  <iframe src="menu.pdf"></iframe>
 </body>
 </html>
